@@ -8,8 +8,10 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>kmitl.esd.exercise1</groupId>
     <artifactId>strategy-pattern</artifactId>
+    <version>1.0</version>
+
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>

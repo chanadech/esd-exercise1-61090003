@@ -9,21 +9,27 @@ class LocalCompanyTest {
 
     private static LocalCompany localCompany;
 
+    /**
+     * LocalCompany test setup
+     */
     @BeforeEach
     void setUp() {
         localCompany = new LocalCompany();
     }
 
+    /**
+     * Test for checking that the company type is equal
+     */
     @Test
     void getCompanyType() {
         assertEquals(localCompany.getCompanyType(),CompanyType.LOCAL);
     }
 
+    /**
+     * Test name
+     */
     @Test
     void getName() {
     }
 
-    @Test
-    void something() {
-    }
 }

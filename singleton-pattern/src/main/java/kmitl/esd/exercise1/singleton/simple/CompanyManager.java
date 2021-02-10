@@ -1,5 +1,8 @@
 package kmitl.esd.exercise1.singleton.simple;
 
+/**
+ * Company manager which used singleton pattern
+ */
 public class CompanyManager {
     public static CompanyManager instance = null;
 
@@ -14,12 +17,5 @@ public class CompanyManager {
             }
         }
         return instance;
-    }
-    public void doSthInstance() {
-        System.out.println("Sth with the instance");
-    }
-
-    public static void doSth() {
-        System.out.println("Sth");
     }
 }

@@ -14,6 +14,10 @@ public class ForeignCompany extends Company {
         return CompanyType.FOREIGN;
     }
 
+    /**
+     * get method for name
+     * @return name
+     */
     public String getName() {
         return "Foreign Comp." + name;
     }

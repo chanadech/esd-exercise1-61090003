@@ -20,7 +20,37 @@ public class Team implements BusinessUnit{
     public void printDepartmentName() {
         Logger.getLogger(Team.class.getSimpleName()).info(" -> Team " + name);
 
+    }
 
+    /**
+     * get method for id
+     * @return id
+     */
+    public Integer getId() {
+        return id;
+    }
 
+    /**
+     * set method for id
+     * @return void
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /**
+     * get method for name
+     * @return name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * set method for name
+     * @return void
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 }
